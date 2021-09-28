@@ -2,4 +2,6 @@
 - hosts: all
   tasks:
     - command: "hostname"
+    - command: "user -r"
+    - command: "-hosts"
 
